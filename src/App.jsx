@@ -8,7 +8,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Setting from "./components/bodyComponents/Settings/Setting";
-import Customer from "./components/bodyComponents/Customer";
+// import Customer from "./components/bodyComponents/Customer";
 import Growth from "./components/bodyComponents/Growth";
 import Home from "./components/bodyComponents/Home";
 import Inventory from "./components/bodyComponents/Inventory";
@@ -63,7 +63,7 @@ function App() {
         <Route path="/home" element={<Home />}></Route>
         <Route path="/inventory" element={<Inventory />}></Route>
         <Route path="/orders" element={<Order />}></Route>
-        <Route path="/customers" element={<Customer />}></Route>
+        {/* <Route path="/customers" element={<Customer />}></Route> */}
         <Route path="/revenue" element={<Revenue />}></Route>
         <Route path="/growth" element={<Growth />}></Route>
         <Route path="/reports" element={<Report />}></Route>
